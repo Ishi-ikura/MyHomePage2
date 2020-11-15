@@ -2,6 +2,18 @@ body {
   background-color: #F8F8F8;
 }
 
+title {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
 li {
   list-style: none;
 }
@@ -9,6 +21,7 @@ li {
 a {
   text-decoration: none;
   color: black;
+  font-size: 50px;
 }
 
 a:hover {
@@ -16,12 +29,12 @@ a:hover {
 }
 
 .wide {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
 .header-inner {
-  position:
+  position:;
 }
 
 .header-section {
@@ -33,7 +46,7 @@ a:hover {
 
 .header-list {
   background-color: #B6C6F2;
-  height: 70px;
+  height: 120px;
   color: white;
 }
 
@@ -58,14 +71,15 @@ a:hover {
 
 .main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 10px;
+  text-align: center;
 }
 
 .post-wrapper {
   background-color: #fff;
   margin-bottom: 30px;
-  margin: 0px 10px;
+
 }
 
 
@@ -75,6 +89,11 @@ a:hover {
 
 .post-title {
   padding: 15px 0px;
+}
+
+.post-image {
+  width: 80%;
+  height: 791px;
 }
 
 .dottedline {
@@ -90,6 +109,10 @@ a:hover {
 .post-text {
   margin: 10px;
   padding-bottom: 15px;
+}
+
+.post-text p {
+  text-align: left;
 }
 
 .post-section {

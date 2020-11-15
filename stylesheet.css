@@ -64,10 +64,13 @@ a:hover {
 
 .post-wrapper {
   background-color: #fff;
-  margin-bottom: 30px;
   margin: 0px 10px;
 }
 
+.post-image {
+  width: 280px;
+  height: 300px;
+}
 
 .emfont {
 
