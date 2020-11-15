@@ -57,15 +57,20 @@ a:hover {
 }
 
 .main {
+  /*
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
+  */
 }
 
 .post-wrapper {
+  display: flex;
   background-color: #fff;
   margin: 0px 10px;
+  margin-bottom: 30px;
 }
+
 
 .post-image {
   width: 280px;
@@ -77,8 +82,10 @@ a:hover {
 }
 
 .post-title {
-  padding: 15px 0px;
+  padding: 15px 10px;
 }
+
+
 
 .dottedline {
   position: relative;
