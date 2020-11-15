@@ -91,6 +91,10 @@ a:hover {
   padding: 15px 0px;
 }
 
+.post-title a {
+  text-align: left;
+}
+
 .post-image {
   width: 80%;
   height: 791px;
